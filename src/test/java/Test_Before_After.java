@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 
 public class Test_Before_After {
     public  static final String SITE = "https://www.instagram.com";
-    public  static String BITCH = "vladislav.butko";
+    public  static String BITCH = "alechka.vcher";
     protected PageObject photoPage;
 
     @Before
