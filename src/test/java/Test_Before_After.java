@@ -1,11 +1,13 @@
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import pages.Page;
 import pages.PageObject;
 
 import java.awt.*;
 import java.net.MalformedURLException;
+import java.net.URL;
 
 
 public class Test_Before_After {
@@ -16,7 +18,7 @@ public class Test_Before_After {
     @Before
     public void setUp() throws MalformedURLException, AWTException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Denys\\Desktop\\chromedriver_win32\\chromedriver.exe");
-        photoPage = new PageObject(new FirefoxDriver());
+        photoPage = new PageObject(new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), DesiredCapabilities.firefox()));
         Page.getDriver().manage().window().maximize();
 
     }
