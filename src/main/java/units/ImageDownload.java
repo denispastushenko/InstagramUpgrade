@@ -6,7 +6,7 @@ import java.net.URL;
 public class ImageDownload {
 
 
-    public static final String FILE_WAY = "/home/denys/InstagramTest/";
+    public static final String FILE_WAY = "Z:\\Test\\Test";
 
     public static File saver(String url1, String destination) throws IOException {
         URL url = new URL(url1);
