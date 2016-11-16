@@ -32,6 +32,7 @@ public class PageObject extends  Page {
         Thread.sleep(3000);
 
         getSiteEpam.click();
+        Thread.sleep(5000);
         return  new TestPage(driver.get());
 
     }
