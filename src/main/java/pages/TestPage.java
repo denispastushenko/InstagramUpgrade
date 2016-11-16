@@ -13,8 +13,9 @@ public class TestPage extends Page {
         super(webDriver);
     }
 
-    public AssertPage getLinkIdeas(){
+    public AssertPage getLinkIdeas() throws InterruptedException {
         ideas.click();
+        Thread.sleep(20000);
         return  new AssertPage(driver.get());
     }
 }
