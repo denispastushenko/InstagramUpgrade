@@ -1,18 +1,28 @@
 import org.junit.Test;
 import pages.Page;
 
+import java.awt.*;
+
 public class InstagramTest extends  Test_Before_After {
     @Test
-    public void userSearchTest() throws InterruptedException {
-        Page.getDriver().get(SITE + "/" + BITCH);
+    public void userSearchTest() throws InterruptedException, AWTException {
+        /*Page.getDriver().get(SITE + "/" + BITCH);
        photoPage.clickButton();
-        photoPage.savetoComputer();
+        photoPage.savetoComputer();*/
+            Page.getDriver().get(site);
+    testPage = pageObject.testURL("EPAM | Software Product Development Services");
+    assertPage = testPage.getLinkIdeas();
+    assertPage = assertPage.assertTest("Ideas");
     }
     @Test
-    public void photosToDB() throws InterruptedException {
-        Page.getDriver().get(SITE + "/" + BITCH);
+   public void photosToDB() throws InterruptedException, AWTException {
+     /*   Page.getDriver().get(SITE + "/" + BITCH);
         photoPage.clickButton();
-        photoPage.savetoDB();
+        photoPage.savetoDB();*/
+        Page.getDriver().get(site);
+        testPage = pageObject.testURL("EPAM | Software Product Development Services");
+        assertPage = testPage.getLinkIdeas();
+        assertPage = assertPage.assertTest("Ideasdsfsfs");
     }
 
 
