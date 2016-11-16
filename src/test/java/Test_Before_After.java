@@ -23,7 +23,7 @@ public class Test_Before_After {
 
     @Before
     public void setUp() throws MalformedURLException, AWTException {
-        System.setProperty("webdriver.chrome.driver", "/tmp/workspace/Jen/target/geckodriver");
+        System.setProperty("webdriver.chrome.driver", "D:\\WorkSpace\\chromedriver_win32\\chromedriver.exe");
         pageObject = new PageObject(new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), DesiredCapabilities.firefox()));
        // photoPage = new PageObject(new ChromeDriver());
         Page.getDriver().manage().window().maximize();
