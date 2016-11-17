@@ -12,7 +12,7 @@ public class InstagramTest extends  Test_Before_After {
             Page.getDriver().get(site);
    // testPage = pageObject.testURL("EPAM | Software Product Development Services");
    // assertPage = testPage.getLinkIdeas();
-    assertPage = assertPage.assertTest("Ideas");
+    assertPage = assertPage.assertTest("IDEAS");
     }
     @Test
    public void photosToDB() throws InterruptedException, AWTException {
