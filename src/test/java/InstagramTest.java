@@ -11,7 +11,7 @@ public class InstagramTest extends  Test_Before_After {
         photoPage.savetoComputer();*/
             Page.getDriver().get(site);
    // testPage = pageObject.testURL("EPAM | Software Product Development Services");
-    assertPage = testPage.getLinkIdeas();
+   // assertPage = testPage.getLinkIdeas();
     assertPage = assertPage.assertTest("Ideas");
     }
     @Test
@@ -21,7 +21,7 @@ public class InstagramTest extends  Test_Before_After {
         photoPage.savetoDB();*/
         Page.getDriver().get(site);
       //  testPage = pageObject.testURL("EPAM | Software Product Development Services");
-        assertPage = testPage.getLinkIdeas();
+       // assertPage = testPage.getLinkIdeas();
         assertPage = assertPage.assertTest("Ideasdsfsfs");
     }
 

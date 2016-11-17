@@ -1,4 +1,4 @@
-package pages;
+/*package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,4 +18,4 @@ public class TestPage extends Page {
         Thread.sleep(3000);
         return  new AssertPage(driver.get());
     }
-}
+}*/

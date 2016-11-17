@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AssertPage extends Page {
 
-    @FindBy(xpath="//a[text()='Ideas']")
+    @FindBy(xpath="//a[@href='/ideas']")
     private WebElement checkIdeas;
 
     public AssertPage(WebDriver webDriver) {
