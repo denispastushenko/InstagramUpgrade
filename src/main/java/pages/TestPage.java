@@ -15,7 +15,7 @@ public class TestPage extends Page {
 
     public AssertPage getLinkIdeas() throws InterruptedException {
         ideas.click();
-        Thread.sleep(20000);
+        Thread.sleep(3000);
         return  new AssertPage(driver.get());
     }
 }
