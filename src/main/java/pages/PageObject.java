@@ -1,4 +1,4 @@
-package pages;
+/*package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,7 +35,7 @@ public class PageObject extends  Page {
         Thread.sleep(3000);
         return  new TestPage(driver.get());
 
-    }
+    }*/
   /*  private  static int SCROLL = 250;
     private Robot r = new Robot();
     @FindBy(xpath = "//a[@class='_oidfu']")
@@ -99,4 +99,4 @@ public class PageObject extends  Page {
         return this;
 
     }*/
-}
+
