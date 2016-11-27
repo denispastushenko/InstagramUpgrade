@@ -14,16 +14,16 @@ public class InstagramTest extends  Test_Before_After {
    // assertPage = testPage.getLinkIdeas();
     assertPage = assertPage.assertTest("IDEAS");
     }
-    @Test
+  /*  @Test
    public void photosToDB() throws InterruptedException, AWTException {
-     /*   Page.getDriver().get(SITE + "/" + BITCH);
+     *//*   Page.getDriver().get(SITE + "/" + BITCH);
         photoPage.clickButton();
-        photoPage.savetoDB();*/
+        photoPage.savetoDB();*//*
         Page.getDriver().get(site);
       //  testPage = pageObject.testURL("EPAM | Software Product Development Services");
        // assertPage = testPage.getLinkIdeas();
         assertPage = assertPage.assertTest("Ideasdsfsfs");
-    }
+    }*/
 
 
    /* @Test
